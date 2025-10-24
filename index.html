@@ -79,6 +79,56 @@
             margin-left:auto;
         }
         @media (max-width:640px){
+    body {
+        padding:24px;
+    }
+
+    h1 {
+        font-size:22px;
+        margin-bottom:16px;
+    }
+
+    .grid {
+        gap:12px;
+    }
+
+    .card {
+        flex-direction: column;
+        gap:12px;
+        padding:14px;
+    }
+
+    .photo {
+        width:100%;
+        height:180px;
+        border-radius:12px;
+        margin-bottom:10px;
+    }
+
+    .photo img {
+        object-fit:cover;
+    }
+
+    .name {
+        font-size:15px;
+    }
+
+    .spec {
+        font-size:13px;
+    }
+
+    .ach {
+        font-size:12px;
+        line-height:1.4;
+    }
+
+    .tag {
+        font-size:11px;
+        padding:4px 8px;
+    }
+}
+
+        @media (max-width:640px){
             .card {flex-direction:row;gap:12px;}
             .photo {width:72px;height:72px;}
         }
